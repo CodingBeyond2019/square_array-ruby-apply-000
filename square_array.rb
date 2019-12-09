@@ -1,5 +1,5 @@
 def square_array(array)
- newArray = (array.each{|n| puts n ** 2})
+ newArray = (array.each{|item| puts item ** 2})
   puts "\n"
   
 end
